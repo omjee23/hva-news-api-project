@@ -1,0 +1,48 @@
+
+
+@media (max-width: 360px) {
+    #mainDiv{
+        background-color: rgb(155, 255, 255);
+    }
+
+
+    #searchBar {
+      padding: 10px; 
+      text-align: center; 
+    }
+
+    #searchButton {
+        color: #FDFDFA;
+        font-size: 20px;
+        width: 90%;
+        font-family: Iowan Old Style;
+        font-weight: 400;
+        line-height: 28px;
+        border: none;
+        cursor: pointer;
+        word-wrap: break-word;
+    }
+  
+    #inputBtn {
+      width: 100%; 
+      margin-bottom: 10px; 
+    }
+    
+    .searchBtn button {
+      width: 100%; 
+    }
+
+    .cardDetails{
+        width: 90%;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
