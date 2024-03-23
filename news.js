@@ -19,7 +19,7 @@ searchBtn.addEventListener("click",async()=>{
         contentImages[i].src=newsData.articles[i].urlToImage;
         contentTitle[i].innerHTML =newsData.articles[i].title;
         contentDescription[i].innerHTML =newsData.articles[i].description;
-        contentLink[i].href =newsData.articles[i].url;
+        contentLink[i].href  =newsData.articles[i].url;
         count++;
         if(count===9){
             break;
